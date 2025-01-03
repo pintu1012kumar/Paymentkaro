@@ -24,21 +24,21 @@ export const Signup = () => {
             onChange={(e) => {
               setFirstName(e.target.value);
             }}
-            placeholder="Abc"
+            placeholder="Pintu"
             label={"First Name"}
           />
           <InputBox
             onChange={(e) => {
               setLastName(e.target.value);
             }}
-            placeholder="Doe"
+            placeholder="Kumar"
             label={"Last Name"}
           />
           <InputBox
             onChange={(e) => {
               setUsername(e.target.value);
             }}
-            placeholder="harkirat@gmail.com"
+            placeholder="Pintu@gmail.com"
             label={"Email"}
           />
           <InputBox
