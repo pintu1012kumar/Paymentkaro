@@ -46,6 +46,8 @@ router.post("/signup", async (req, res) => {
         balance: 1 + Math.random() * 10000
     })
       console.log("User created fuccessfully with",giveSomeRandomAmt);
+      console.log("giveSomeRandomAmt:",giveSomeRandomAmt);
+      
       
     const token = jwt.sign({
         userId
