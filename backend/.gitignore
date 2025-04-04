@@ -1,2 +1,5 @@
-node_modules
+# Node modules - never push this to GitHub
+node_modules/
+
+# Environment variables - contains secrets like DB passwords, API keys
 .env
